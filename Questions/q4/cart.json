@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 123,
+            "unit_price": 100,
+            "quantity": 2
+        },
+        {
+            "id": 456,
+            "unit_price": 120,
+            "quantity": 3
+        },
+        {
+            "id": 789,
+            "unit_price": 200,
+            "quantity": 1
+        }
+    ]
+}

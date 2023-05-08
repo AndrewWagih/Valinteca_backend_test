@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "b07ce3c3-1736-4ad9-8138-89c487df0d9c",
+		"name": "task backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5272271"
+	},
+	"item": [
+		{
+			"name": "Q8",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "start_date",
+							"value": "2023-05-20",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "text"
+						},
+						{
+							"key": "end_time",
+							"value": "00:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/request-dates",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"request-dates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q10",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "start_date",
+							"value": "2023-05-20",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "text"
+						},
+						{
+							"key": "end_time",
+							"value": "00:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/send-mail",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"send-mail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q11",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "start_date",
+							"value": "2023-05-20",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "text"
+						},
+						{
+							"key": "end_time",
+							"value": "00:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/external-api-job",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"external-api-job"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "start_date",
+							"value": "2023-05-20",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "text"
+						},
+						{
+							"key": "end_time",
+							"value": "00:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "start_date",
+							"value": "2023-05-20",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "text"
+						},
+						{
+							"key": "end_time",
+							"value": "00:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/posts-starts-with-d",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts-starts-with-d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
