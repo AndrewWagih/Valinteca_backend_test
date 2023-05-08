@@ -14,6 +14,12 @@ class ExternalApiJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
+    /* 
+        notes :-
+        you will found postman collection with questions key to test code in https://github.com/AndrewWagih/Valinteca_backend_test/blob/main/task%20backend.postman_collection.json
+    
+    */
+    
     private $retryCount = 0;
 
     /**

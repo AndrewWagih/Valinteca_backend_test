@@ -7,6 +7,13 @@ use Illuminate\Support\Facades\Http;
 
 class QuestionNineController extends Controller
 {
+
+    /* 
+        notes :-
+        you will found postman collection with questions key to test code in https://github.com/AndrewWagih/Valinteca_backend_test/blob/main/task%20backend.postman_collection.json
+    
+    */
+    
     public function getPostsStartingWithD()
     {
         $response = Http::get('https://jsonplaceholder.typicode.com/posts');
