@@ -8,7 +8,6 @@ function applyCoupon($jsonFilePath,$couponPercentageValue){
     $totalDiscount = 0;
     foreach($cart['products'] as $product){  
         if($product['unit_price'] <= 150){
-            var_dump($totalDiscount);
             $totalDiscount += ($product['unit_price'] * $product['quantity'] ) * ($couponPercentageValue/100);
         }
     }
